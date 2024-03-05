@@ -1,0 +1,729 @@
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Circuits</title>
+		<!-- Auteurs : Max Kosnar-->
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/style2.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<header>
+			<div id="header-left-part">
+				<h1 id="f1-title">F1</h1>
+				<h1 id="website-title">2023 Récapitulatif</h1>
+			</div>
+			<ul id="header-list">
+				<li class="header-item">
+					<a href="index.html">Pilotes</a>
+				</li>
+				<li class="header-item">
+					<a href="page1.html">Écuries</a>
+				</li>
+				<li class="header-item">
+					<a href="page2.html">Circuits</a>
+				</li>
+			</ul>
+		</header>
+
+		<a id="btn-go-top" href="#header-list">
+			<img src="images/arrow_up.svg" alt="arrow up" />
+		</a>
+
+		<section id="circuit-summary">
+			<h2 id="circuit-title">Circuit</h2>
+			<div id="circuit-div">
+				<!--Bahrain-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">03 - 05 MARS</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/bahrain-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Bahreïn</h3>
+						<img class="country-flag" src="images/flags/bahrain-flag.png" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/perez_1.avif" />
+							<p class="pilot-name">02 PER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/alonso_1.avif" />
+							<p class="pilot-name">03 ALO</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--Saudi Arabia-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">17 - 19 MARS</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/saudi-arabia-circuit.png" />
+					<div class="country">
+						<h3 class="country-name">Arabie Saoudite</h3>
+						<img class="country-flag" src="images/flags/saudi-arabia-flag.png" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/perez_1.avif" />
+							<p class="pilot-name">01 PER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">02 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/alonso_1.avif" />
+							<p class="pilot-name">03 ALO</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--Australia-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">31 - 02 MARS-AVRIL</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/australia-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Australie</h3>
+						<img class="country-flag" src="images/flags/australia-flag.jpg" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/hamilton_1.avif" />
+							<p class="pilot-name">02 HAM</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/alonso_1.avif" />
+							<p class="pilot-name">03 ALO</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--Azerbajian-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">28 - 30 AVRIL</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/azerbaijan-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Azerbajian</h3>
+						<img class="country-flag" src="images/flags/azerbaijan-flag.jpg" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/perez_1.avif" />
+							<p class="pilot-name">01 PER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">02 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/leclerc_1.avif" />
+							<p class="pilot-name">03 LEC</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--USA-->
+				<ul class="circuit-card-box" onclick="popUp(this)">
+					<li class="circuit-card">
+						<div class="date-div">
+							<img class="calendar-img" src="images/icons/calendar.png" />
+							<p class="date">05 - 07 MAI</p>
+						</div>
+						<img class="circuit-img" src="images/circuits/usa-circuit.avif" />
+						<div class="country">
+							<h3 class="country-name">Miami</h3>
+							<img
+								class="country-flag"
+								src="images/flags/united-states-of-america-flag.png"
+							/>
+						</div>
+						<ul class="circuit-podium">
+							<li class="pilot">
+								<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+								<p class="pilot-name">01 VER</p>
+							</li>
+							<li class="pilot">
+								<img class="pilot-img" src="images/pilots/perez_1.avif" />
+								<p class="pilot-name">02 PER</p>
+							</li>
+							<li class="pilot">
+								<img class="pilot-img" src="images/pilots/alonso_1.avif" />
+								<p class="pilot-name">03 ALO</p>
+							</li>
+						</ul>
+					</li>
+				</ul>
+
+				<!--ITALY-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">ANNULÉ</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/italy-circuit.png" />
+					<div class="country">
+						<h3 class="country-name">Italie - Imola</h3>
+						<img class="country-flag" src="images/flags/italy-flag.png" />
+					</div>
+				</div>
+
+				<!--Monaco-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">26 - 28 MAI</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/monaco-circuit.png" />
+					<div class="country">
+						<h3 class="country-name">Monaco</h3>
+						<img class="country-flag" src="images/flags/monaco-flag.png" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/alonso_1.avif" />
+							<p class="pilot-name">02 ALO</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/ocon_1.avif" />
+							<p class="pilot-name">03 OCO</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--Spain-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">02 - 04 JUIN</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/spain-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Espagne</h3>
+						<img class="country-flag" src="images/flags/spain-flag.png" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/hamilton_1.avif" />
+							<p class="pilot-name">02 HAM</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/russell_1.avif" />
+							<p class="pilot-name">03 RUS</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--Canada-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">16 - 18 JUIN</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/canada-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Canada</h3>
+						<img class="country-flag" src="images/flags/canada-flag.png" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/alonso_1.avif" />
+							<p class="pilot-name">02 ALO</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/hamilton_1.avif" />
+							<p class="pilot-name">03 HAM</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--AUSTRIA-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">30 - 02 JUIN-JUILLET</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/austria-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Autriche</h3>
+						<img class="country-flag" src="images/flags/austria-flag.jpg" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/leclerc_1.avif" />
+							<p class="pilot-name">02 LEC</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/perez_1.avif" />
+							<p class="pilot-name">03 PER</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--GB-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">07 - 09 JUILLET</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/gb-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Royaume Uni</h3>
+						<img class="country-flag" src="images/flags/united-kingdom-flag.png" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/norris_1.avif" />
+							<p class="pilot-name">02 NOR</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/hamilton_1.avif" />
+							<p class="pilot-name">03 HAM</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--Hungary-->
+				<div class="circuit-card">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">21 - 23 JUILLET</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/hungary-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Hongrie</h3>
+						<img class="country-flag" src="images/flags/hungary-flag.png" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/norris_1.avif" />
+							<p class="pilot-name">02 NOR</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/perez_1.avif" />
+							<p class="pilot-name">03 PER</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--Belgium-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">28 - 30 JUILLET</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/belgium-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Belgique</h3>
+						<img class="country-flag" src="images/flags/begium-flag.png" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/perez_1.avif" />
+							<p class="pilot-name">02 PER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/leclerc_1.avif" />
+							<p class="pilot-name">03 LEC</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--Netherlands-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">25 - 27 AOÛT</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/hungary-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Pays-Bas</h3>
+						<img class="country-flag" src="images/flags/netherlands-flag.png" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/alonso_1.avif" />
+							<p class="pilot-name">02 ALO</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/gasly_1.avif" />
+							<p class="pilot-name">03 GAZ</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--Italy-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">01 - 03 SEPTEMBRE</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/italy2-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Italie - Monza</h3>
+						<img class="country-flag" src="images/flags/italy-flag.png" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/perez_1.avif" />
+							<p class="pilot-name">02 PER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/sainz_1.avif" />
+							<p class="pilot-name">03 SAI</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--Singapore-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">15 - 17 SEPTEMBRE</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/singapore-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Singapour</h3>
+						<img class="country-flag" src="images/flags/singapore-flag.png" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/sainz_1.avif" />
+							<p class="pilot-name">01 SAI</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/norris_1.avif" />
+							<p class="pilot-name">02 NOR</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/hamilton_1.avif" />
+							<p class="pilot-name">03 HAM</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--JAPAN-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">22 - 24 SEPTEMBRE</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/japan-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">JAPON</h3>
+						<img class="country-flag" src="images/flags/japan-flag.png" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/norris_1.avif" />
+							<p class="pilot-name">02 NOR</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/piastri_1.avif" />
+							<p class="pilot-name">03 PIA</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--QATAR-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">06 - 08 OCTOBRE</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/qatar-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Qatar</h3>
+						<img class="country-flag" src="images/flags/qatar-flag.png" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/piastri_1.avif" />
+							<p class="pilot-name">02 PIA</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/norris_1.avif" />
+							<p class="pilot-name">03 NOR</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--USA-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">20 - 22 OCTOBRE</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/usa2-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Austin</h3>
+						<img
+							class="country-flag"
+							src="images/flags/united-states-of-america-flag.png"
+						/>
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/norris_1.avif" />
+							<p class="pilot-name">02 NOR</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/sainz_1.avif" />
+							<p class="pilot-name">03 SAI</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--MEXICO-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">27 - 29 OCTOBRE</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/mexico-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Mexique</h3>
+						<img class="country-flag" src="images/flags/mexico-flag.png" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/hamilton_1.avif" />
+							<p class="pilot-name">02 HAM</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/leclerc_1.avif" />
+							<p class="pilot-name">03 LEC</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--BRAZIL-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">03 - 05 NOVEMBRE</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/brazil-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Brésil</h3>
+						<img class="country-flag" src="images/flags/brazil-flag.png" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/norris_1.avif" />
+							<p class="pilot-name">02 NOR</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/alonso_1.avif" />
+							<p class="pilot-name">03 ALO</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--USA-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">16 - 18 NOVEMBRE</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/usa3-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Las Vegas</h3>
+						<img
+							class="country-flag"
+							src="images/flags/united-states-of-america-flag.png"
+						/>
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/leclerc_1.avif" />
+							<p class="pilot-name">02 LEC</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/perez_1.avif" />
+							<p class="pilot-name">03 PER</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--ABUdhabi-->
+				<div class="circuit-card" onclick="popUp(this)">
+					<div class="date-div">
+						<img class="calendar-img" src="images/icons/calendar.png" />
+						<p class="date">24 - 26 NOVEMBRE</p>
+					</div>
+					<img class="circuit-img" src="images/circuits/uae-circuit.avif" />
+					<div class="country">
+						<h3 class="country-name">Abu Dhabi</h3>
+						<img class="country-flag" src="images/flags/uae-flag.png" />
+					</div>
+					<ul class="circuit-podium">
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/verstappen_1.avif" />
+							<p class="pilot-name">01 VER</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/leclerc_1.avif" />
+							<p class="pilot-name">02 LEC</p>
+						</li>
+						<li class="pilot">
+							<img class="pilot-img" src="images/pilots/russell_1.avif" />
+							<p class="pilot-name">03 RUS</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<section class="footer-center">
+				<div>
+					<p><b>Auteur :</b></p>
+					<p>
+						Max K. (
+						<img
+							src="./images/icons/github-mark-white.png"
+							class="github-logo-footer"
+						/>
+						<a href="https://github.com/lo-opix/" target="_blank">Github</a>
+						)
+
+						<br /><br /><br /><b>Liens utiles pour en apprendre plus sur le sujet :</b
+						><br />
+						<a href="https://www.eurosport.fr/formule-1/" target="_blank">Eurosport</a>
+						<br />
+						<a href="https://tickets.formula1.com/fr" target="_blank">Acheter</a>
+						des places pour les développeurs
+					</p>
+				</div>
+				<div class="middle_part">
+					<p><b>Liens vers les pages du site :</b></p>
+					<br />
+					<br />
+					<ul>
+						<li><a href="index.html">Les pilotes</a></li>
+						<li><a href="page1.html">Les écuries</a></li>
+						<li><a href="page2.html">Les circuits</a></li>
+					</ul>
+				</div>
+				<div class="right_part">
+					<p><b>Nos sources :</b></p>
+					<br /><br />
+					<ul>
+						<li>
+							<a href="https://www.formula1.com/">Formula 1 website</a>
+						</li>
+						<li>
+							<a href="https://www.countryflags.com/">Countryflags</a>
+						</li>
+						<li>
+							<a href="https://www.boxbox.club/">Application mobile BoxBox</a>
+						</li>
+						<li>
+							<a href="https://icon-icons.com/">Site d'icônes</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<div class="footer-bottom">
+				<div class="page-precedente">
+					<p><a href="/page1.html">Page Précédente</a></p>
+				</div>
+				<div class="page-suivante">
+					<p><a href="/page2.html">Page Suivante</a></p>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript" src="./js/vanilla-tilt.js"></script>
+		<script type="text/javascript" src="./js/script2.js"></script>
+	</body>
+</html>

@@ -1,0 +1,328 @@
+/* Header */
+header {
+	display: flex;
+	background-color: #e10610;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+#f1-title {
+	font-size: 3rem;
+	margin: 10px 20px;
+	width: 62px;
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+	font-family: "Monoton", serif;
+	font-style: italic;
+}
+
+#website-title {
+	font-size: 2rem;
+	margin: 20px;
+	color: rgb(255, 255, 255);
+}
+
+#header-left-part {
+	display: flex;
+	align-items: center;
+}
+
+#header-list {
+	display: flex;
+	list-style: none;
+	margin: 20px;
+	height: 40px;
+}
+
+.header-item {
+	margin: 0 20px;
+	font-size: 1.5rem;
+	transform: translateY(3px);
+}
+
+.header-item>a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+.header-item>a:after {
+	display: block;
+	content: "";
+	height: 3px;
+	width: 100%;
+	background-color: transparent;
+	transition: all 0.3s ease-out;
+}
+
+.header-item>a:hover:after {
+	background-color: rgb(255, 255, 255);
+}
+
+/* Go Up Button */
+#btn-go-top {
+	height: 50px;
+	width: 50px;
+
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.4);
+	border: none;
+	transition: all 0.3s ease-out;
+}
+
+#btn-go-top:hover {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+/*Pilots Carousel*/
+
+#pilots-section {
+	margin: 100px 0 0 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	width: max-content;
+	transition: transform 0.5s ease-in-out;
+}
+
+#pilots-title {
+	margin: 20px;
+	padding: 5px 10px;
+	font-size: 4rem;
+	width: calc(100% - 60px);
+	text-wrap: nowrap;
+	border-top: 10px solid rgb(0, 0, 0);
+	border-right: 10px solid rgb(0, 0, 0);
+	border-radius: 0 20px 0 0;
+}
+
+.pilot-item {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin: 50px;
+	/*background-color: red;*/
+	position: relative;
+}
+
+#pilots-carousel {
+	width: 1050px;
+	position: relative;
+	margin: 10px;
+	overflow: hidden;
+}
+
+.btn-carousel {
+	position: absolute;
+	top: 50%;
+	height: 50px;
+	width: 50px;
+	transform: translateY(-50%);
+	z-index: 2;
+	opacity: 0.3;
+	transition: opacity 0.3s ease-out;
+}
+
+.btn-carousel:hover {
+	opacity: 1;
+}
+
+#previous-button {
+	left: 0;
+	justify-content: center;
+	align-content: center;
+}
+
+#previous-carousel-img {
+	height: inherit;
+	width: inherit;
+	transform: rotateZ(180deg);
+}
+
+#next-button {
+	right: 0;
+}
+
+#next-carousel-img {
+	height: inherit;
+	width: inherit;
+}
+
+.pilot-carousel-img {
+	height: 250px;
+	width: 250px;
+}
+
+.pilot-carousel-names {
+	width: 90%;
+	color: rgb(0, 0, 0);
+}
+
+.pilot-carousel-firstname {
+	text-align: end;
+	font-size: smaller;
+}
+
+.pilot-carousel-name {
+	text-align: end;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+}
+
+.pilot-carsousel-place {
+	height: 100px;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+}
+
+.pilot-carsousel-info-bouton-img{
+	height: 60px;
+	position: absolute;
+	bottom: 33px;
+	left: 0;
+	border-radius: 15px;
+}
+
+.pilot-carsousel-info-bouton-p{
+	height: 60px;
+	position: absolute;
+	bottom: 36px;
+	left: 18;
+	font-weight: bold;
+	border-radius: 15px;
+	font-size: 45px;
+	color: rgba(255, 255, 255, 0.856);
+}
+
+
+/* Tri des pilotes*/
+.tri-buttons-div{
+	border: 5px dotted rgba(22, 22, 22, 0.753);
+	margin-left: 25vw;
+	margin-right: 25vw;
+	margin-bottom: 15px;
+	overflow: hidden;
+	
+}
+
+.selected{
+	border: 3px solid black;
+}
+
+#espace-boutons{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h3{
+	margin-top: 3px;
+	font-size: 15px;
+	color: rgb(117, 0, 0);
+	text-align: center;
+}
+
+.tri-bouton {
+	margin: 10px;
+	font-size: 15px;
+	color: rgba(255, 255, 255, 0.897);
+	padding: 5px;
+	font-family: 'Segoe UI';
+	background-color: rgb(196, 1, 1);
+	border: 3px solid rgba(0, 0, 0, 0);
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.tri-bouton:hover {
+	border-color: black;
+}
+
+#bouton-cup-image {
+	height: 15px;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+/* Pilots page */
+
+.pilot-section {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: rgb(12, 12, 12);
+	border-top: 2px solid rgb(70, 70, 70);
+}
+
+.pilot-page-left {
+	position: relative;
+}
+
+
+.pilot-infos {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 400px;
+	height: 100px;
+	background-color: rgb(20, 20, 20);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.pilot-number {
+	font-size: 2rem;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+}
+
+.pilot-flag {
+	width: 80px;
+	height: 55px;
+	border-radius: 10%;
+}
+
+.pilot-page-firstname {
+	font-size: 1.7rem;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+}
+
+.pilot-page-name {
+	font-size: 2rem;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+
+}
+
+
+.pilot-page-img {
+	height: 400px;
+	width: 400px;
+}
+
+.pilot-description {
+	margin: 20px;
+	font-size: 1.5rem;
+	color: rgb(184, 184, 184);
+}
+
+.sources-liens-pages-site{
+	display: list-item;
+}

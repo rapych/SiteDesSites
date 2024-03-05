@@ -1,0 +1,926 @@
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Pilotes</title>
+	<!-- Auteurs : Max Kosnar et Raphaël Villemain-->
+	<link rel="stylesheet" href="css/global.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+		<div id="header-left-part">
+			<h1 id="f1-title">F1</h1>
+			<h1 id="website-title">2023 Récapitulatif</h1>
+		</div>
+		<ol id="header-list">
+			<li class="header-item">
+				<a href="index.html">Pilotes</a>
+			</li>
+			<li class="header-item">
+				<a href="page1.html">Écuries</a>
+			</li>
+			<li class="header-item">
+				<a href="page2.html">Circuits</a>
+			</li>
+		</ol>
+	</header>
+
+	<a id="btn-go-top" href="#header-list">
+		<img src="images/arrow_up.svg" alt="arrow up" />
+	</a>
+
+	<section id="pilots-section">
+		<h2 id="pilots-title">Les pilotes</h2>
+		<div id="pilots-carousel">
+			<div id="previous-button" class="btn-carousel">
+				<img id="previous-carousel-img" src="images/next_image.svg" alt="preview" />
+			</div>
+			<ul id="pilots-list">
+				<li class="pilot-item" data-victoires="54" data-podiums="98" data-courses="185">
+					<a href="#verstappen-page">
+						<img class="pilot-carousel-img" src="images/pilots/verstappen_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P1.svg" alt="P1" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Red-Bull.svg " alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">MAX</p>
+							<h3 class="pilot-carousel-name">VERSTAPPEN</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="6" data-podiums="35" data-courses="257">
+					<a href="#perez-page" >
+						<img class="pilot-carousel-img" src="images/pilots/perez_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P2.svg" alt="P2" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Red-Bull.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">SERGIO</p>
+							<h3 class="pilot-carousel-name">PEREZ</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="103" data-podiums="197" data-courses="332">
+					<a href="#hamilton-page">
+						<img class="pilot-carousel-img" src="images/pilots/hamilton_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P3.svg" alt="P3" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Mercedes.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">LEWIS</p>
+							<h3 class="pilot-carousel-name">HAMILTON</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="32" data-podiums="106" data-courses="377">
+					<a href="#alonzo-page">
+						<img class="pilot-carousel-img" src="images/pilots/alonso_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P4.svg" alt="P4" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Aston.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">FERNANDO</p>
+							<h3 class="pilot-carousel-name">ALONSO</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="5" data-podiums="30" data-courses="123">
+					<a href="#leclerc-page">
+						<img class="pilot-carousel-img" src="images/pilots/leclerc_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P5.svg" alt="P5" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Ferari.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">CHARLES</p>
+							<h3 class="pilot-carousel-name">LECLERC</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="0" data-podiums="13" data-courses="104">
+					<a href="#norris-page">
+						<img class="pilot-carousel-img" src="images/pilots/norris_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P6.svg" alt="P6" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-McLaren.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">LANDO</p>
+							<h3 class="pilot-carousel-name">NORRIS</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="2" data-podiums="18" data-courses="183">
+					<a href="#sainz-page">
+						<img class="pilot-carousel-img" src="images/pilots/sainz_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P7.svg" alt="P7" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Ferari.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">CARLOS</p>
+							<h3 class="pilot-carousel-name">SAINZ</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="1" data-podiums="11" data-courses="104">
+					<a href="#russel-page" >
+						<img class="pilot-carousel-img" src="images/pilots/russell_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P8.svg" alt="P8" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Mercedes.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">GEORGE</p>
+							<h3 class="pilot-carousel-name">RUSSELL</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="0" data-podiums="2" data-courses="22">
+					<a href="#piastri-page" >
+						<img class="pilot-carousel-img" src="images/pilots/piastri_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P9.svg" alt="P9" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-McLaren.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">OSCAR</p>
+							<h3 class="pilot-carousel-name">PIASTRI</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="0" data-podiums="3" data-courses="143">
+					<a href="#stroll-page" >
+						<img class="pilot-carousel-img" src="images/pilots/stroll_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P10.svg" alt="P10" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Aston.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">LANCE</p>
+							<h3 class="pilot-carousel-name">STROLL</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="1" data-podiums="4" data-courses="130">
+					<a href="#gasly-page">
+						<img class="pilot-carousel-img" src="images/pilots/gasly_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P11.svg" alt="P11" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Alpine.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">PIERRE</p>
+							<h3 class="pilot-carousel-name">GASLY</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="1" data-podiums="3" data-courses="133">
+					<a href="#ocon-page">
+						<img class="pilot-carousel-img" src="images/pilots/ocon_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P12.svg" alt="P12" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Alpine.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">ESTEBAN</p>
+							<h3 class="pilot-carousel-name">OCON</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="0" data-podiums="2" data-courses="81">
+					<a href="#albon-page">
+						<img class="pilot-carousel-img" src="images/pilots/albon_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P13.svg" alt="P13" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Williams.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">ALEXANDER</p>
+							<h3 class="pilot-carousel-name">ALBON</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="0" data-podiums="0" data-courses="63"> 
+					<a href="#tsunoda-page">
+						<img class="pilot-carousel-img" src="images/pilots/tsunoda_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P14.svg" alt="P14" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Alpha-Tauri.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">YUKI</p>
+							<h3 class="pilot-carousel-name">TSUNODA</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="10" data-podiums="67" data-courses="222">
+					<a href="#bottas-page">
+						<img class="pilot-carousel-img" src="images/pilots/bottas_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P15.svg" alt="P15" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Alfa-Romeo.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">VALTTERI</p>
+							<h3 class="pilot-carousel-name">BOTTAS</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="0" data-podiums="0" data-courses="203">
+					<a href="#hulkenberg-page">
+						<img class="pilot-carousel-img" src="images/pilots/hulkenberg_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P16.svg" alt="P16" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Haas.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">NICOLAS</p>
+							<h3 class="pilot-carousel-name">HULKENBERG</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="8" data-podiums="32" data-courses="239">
+					<a href="#ricciardo-page">
+						<img class="pilot-carousel-img" src="images/pilots/ricciardo_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P17.svg" alt="P17" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Alpha-Tauri.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">DANIEL</p>
+							<h3 class="pilot-carousel-name">RICCIARDO</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="0" data-podiums="0" data-courses="44"> 
+					<a href="#zhou-page">
+						<img class="pilot-carousel-img" src="images/pilots/zhou_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P18.svg" alt="P18" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Alfa-Romeo.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">GUANYU</p>
+							<h3 class="pilot-carousel-name">ZHOU</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="0" data-podiums="1" data-courses="163">
+					<a href="#magnussen-page">
+						<img class="pilot-carousel-img" src="images/pilots/magnussen_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P19.svg" alt="P19" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Haas.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">KEVIN</p>
+							<h3 class="pilot-carousel-name">MAGNUSSEN</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="0" data-podiums="0" data-courses="5">
+					<a href="#lawson-page">
+						<img class="pilot-carousel-img" src="images/pilots/lawson_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P20.svg" alt="P20" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Alpha-Tauri.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">LIAM</p>
+							<h3 class="pilot-carousel-name">LAWSON</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="0" data-podiums="0" data-courses="22">
+					<a href="#sargeant-page">
+						<img class="pilot-carousel-img" src="images/pilots/sargeant_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P21.svg" alt="P21" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Williams.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">LOGAN</p>
+							<h3 class="pilot-carousel-name">SAREGANT</h3>
+						</div>
+					</a>
+				</li>
+				<li class="pilot-item" data-victoires="0" data-podiums="0" data-courses="11">
+					<a href="#devries-page">
+						<img class="pilot-carousel-img" src="images/pilots/devires_1.avif" alt="pilot" />
+						<img class="pilot-carsousel-place" src="images/places_images/P22.svg" alt="P22" /> <img class="pilot-carsousel-info-bouton-img hidden" src="images/places_images/Rectangle-Alpha-Tauri.svg" alt="P22" />
+						<p class="pilot-carsousel-info-bouton-p hidden"><b>xxx</b></p>
+						<div class="pilot-carousel-names">
+							<p class="pilot-carousel-firstname">NICK</p>
+							<h3 class="pilot-carousel-name">DEVRIES</h3>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div id="next-button" class="btn-carousel">
+				<img id="next-carousel-img" src="images/next_image.svg" alt="next" />
+			</div>
+		</div>
+	</section>
+
+	<div class="tri-buttons-div">
+		<h3><b>Trier par: </b></h3>
+		<div id="espace-boutons">
+		<button class="tri-bouton" id="Bouton-victoires" onclick="trierVictoires()"><b>Victoires  </b><img src="images/icons/cup.png" id="bouton-cup-image"></button>
+		<button class="tri-bouton" onclick="trierPodiums()"><b>Podiums  </b><img src="images/icons/podium.png" id="bouton-cup-image"></button>
+		<button class="tri-bouton" onclick="trierCourses()"><b>Cources  </b><img src="images/circuits/italy-circuit.png" id="bouton-cup-image"></button>
+		<button class="tri-bouton" onclick="actualiserPage()"><b>Classement 2023  </b><img src="images/icons/cup.png" id="bouton-cup-image"></button>
+		</div>
+	</div>
+
+	<section class="pilot-section" id="verstappen-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/verstappen_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">1</p>
+				<img class="pilot-flag" src="images/flags/netherlands-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">MAX</h4>
+					<h3 class="pilot-page-name">VERSTAPPEN</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Max Verstappen est né le 30 septembre 1997 dans la ville d'Hasselt en Belgique
+				mais possède la nationalité néerlandaise et aussi allemande.
+				C'est le fils d'un ancien pilote de formule 1, Jos Verstappen.
+				<br>Ce grand pilote de formule 1 est déjà 3 fois champion du monde et a gagné 19
+				fois cette saison. Depuis ses débuts, il a couru 185 courses et a gagné 54 fois.
+
+				<br>
+				<br><b>Anecdotes :</b>
+				<br>Lorsqu'il a commencé sa carrière en formule 1, il n'avait même pas
+				son permis de conduire (voiture). C'est aussi un grand supporter du <a
+					href="https://www.fcbarcelona.fr/fr/" target="_blank">FC Barcelone</a>.
+		</div>
+	</section>
+
+
+	<section class="pilot-section" id="perez-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/perez_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">11</p>
+				<img class="pilot-flag" src="images/flags/mexico-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">SERGIO</h4>
+					<h3 class="pilot-page-name">PEREZ</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Sergio Michel Pérez Mendoza, souvent appelé Checo, est né le 26 janvier 1990 au Mexique.
+				C'est le premier pilote mexicain à rouler en F1.
+				<br>Cette saison, il a gagné 2 fois, a fait 9 podiums et 2 pôles positions. Depuis ses débuts il a couru
+				257 courses et a gagné 6 fois.
+				<br>
+				<br><b>Anecdotes :</b>
+				<br>Il a choisi le numéro 11 en hommage à son joueur de football préféré : <a
+					href="https://fr.wikipedia.org/wiki/Iv%C3%A1n_Zamorano" target="_blank">Iván Zamorano</a>.
+			</p>
+		</div>
+	</section>
+	<section class="pilot-section" id="hamilton-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/hamilton_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">44</p>
+				<img class="pilot-flag" src="images/flags/united-kingdom-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">LEWIS</h4>
+					<h3 class="pilot-page-name">HAMILTON</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Lewis Carl Davidson Hamilton est né le 7 janvier 1985 en Angleterre. Cet homme a un talent naturel pour
+				le pilotage et le style vestimentaire.
+				Après avoir rejoint en 1998, le programme jeunes pilotes de Mc Laren, il a fait son arrivé en F1 en
+				2007. C'est l'un des meilleurs pilotes de F1 de tous les temps.
+				<br>Cette saison, il a fait 6 podiums et une seule pole position. Depuis ses débuts, il a couru 332
+				courses et gagné 103 fois. Il est aussi 7 fois champion du monde
+				(certains diront 8 mais cela est une autre histoire).
+				<br>
+				<br><b>Annecdotes :</b>
+				<br>En 2020, Lewis Hamilton a été nommé ambassadeur de l'éducation à l'ONU. Il est aussi végan depuis
+				2017.
+			</p>
+		</div>
+	</section>
+	<section class="pilot-section" id="alonzo-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/alonso_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">14</p>
+				<img class="pilot-flag" src="images/flags/spain-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">FERNANDO</h4>
+					<h3 class="pilot-page-name">ALONSO</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Fernando Alonso Díaz est né le 29 juillet 1981 en Espagne. Il ne vient pas d'une famille riche,
+				cela a été compliqué pour lui de se lancer dans les sports automobiles (lors de ses débuts il conduisait le
+				kart de sa sœur).
+				En 2018, il part de la F1 mais pas pour longtemps vu qu'il y reviendra en 2021.<br>
+				Cette saison, il a fait 8 podiums. Depuis ses débuts, il a couru 377 courses, gagné 32 fois et fait 106
+				podiums.
+				<br>
+				<br><b>Anecdotes :</b>
+				<br>Il est membre d'honneur du Real Madrid. Il a son propre musée en Espagne. Même si il est 2 fois
+				champion du monde,
+				il n'a jamais gagné à Spa.
+			</p>
+		</div>
+	</section>
+	<section class="pilot-section" id="leclerc-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/leclerc_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">16</p>
+				<img class="pilot-flag" src="images/flags/monaco-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">CHARLES</h4>
+					<h3 class="pilot-page-name">LECLERC</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Charles Marc Hervé Perceval Leclerc est né le 16 octobre 1997 à Monaco. Il est depuis ses débuts en 2019
+				dans l'écurie rouge : Ferrari.
+				<br>Cette saison, il a fait 6 podiums et 5 pôles positions. Depuis ses débuts, il a couru 123 courses
+				et gagné 5 fois.
+				<br>
+				<br><b>Anecdotes : </b>
+				<br> Son frère, Arthur Leclerc a roulé cette saison en F2. Il joue du piano, de la guitare et compose de
+				la musique.
+			</p>
+		</div>
+	</section>
+	<section class="pilot-section" id="norris-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/norris_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">46</p>
+				<img class="pilot-flag" src="images/flags/united-kingdom-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">LANDO</h4>
+					<h3 class="pilot-page-name">NORRIS</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Lando Norris est né le 13 novembre 1999 en Angleterre. Après ses passages prometteurs en karting,
+				F4, F3 et F2, c'est un pilote qui promet en F1.<br> Cette saison, il a fait 7 podiums. Depuis ses débuts
+				il a couru 104 courses et a fait 13 podiums. A ce jour, il n'a toujours pas gagné une course et c'est
+				une de ces grandes frustrations.<br>
+				<br>
+				<b>Anecdotes :</b>
+				<br>En 2021, il a créé <a href="https://quadrant.gg/" target="_blank">Quadrant</a> une marque de gaming mais aussi d'habits de tous les jours.
+				Il adore le golf mais actuellement il aime plutôt passer son temps avec une platine de DJ.
+				Il a choisi le numéro 46 pour honorer <a href="https://fr.wikipedia.org/wiki/Valentino_Rossi" target="_blank">Valentino
+					Rossi</a>, grand pilote de <a href="https://www.motogp.com/fr" target="_blank">MotoGP</a>
+				(une compétition de course de motos sur circuits).
+
+			</p>
+		</div>
+	</section>
+	<section class="pilot-section" id="sainz-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/sainz_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">55</p>
+				<img class="pilot-flag" src="images/flags/spain-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">CARLOS</h4>
+					<h3 class="pilot-page-name">SAINZ</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Carlos Sainz de Castro Cenamor Rincón Rebollo Virto Moreno de Aranda Don Per Urrielagoiria
+				Pérez del Pulgar est né le 1er septembre 1994 en Espagne. C'est le fils d'un grand coureur de Rallye <a
+					href="https://fr.wikipedia.org/wiki/Carlos_Sainz" target="_blank"> Carlos Sainz Senior</a>. Depuis ses débuts en
+				2015,
+				il a déjà été dans 4 écuries différentes. Il a donc de très bonnes qualités d'adaptation.<br>Cette
+				saison il est le seul a avoir gagné une course et ne pas être chez RedBull. Il a aussi fait 3 podiums et
+				2 pôles positions.
+				Depuis ses débuts, il a couru 183 courses et a gagné 2 fois.
+				<br>
+				<b>Anecdote :</b>
+				<br>Son surnom est "Smooth Operator" parce qu'après avoir fini 5eme du grand prix de Hongrie en 2019, il
+				a chanté
+				Sade's 1984.
+
+			</p>
+		</div>
+	</section>
+	<section class="pilot-section" id="russel-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/russel_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">63</p>
+				<img class="pilot-flag" src="images/flags/united-kingdom-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">GEORGE</h4>
+					<h3 class="pilot-page-name">RUSSEL</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Geroge William Russel est né le 15 février 1998 en Angleterre. Il est considéré comme l'un des meilleurs
+				jeunes talents en F1.
+				Après avoir rejoint le programme junior de Mercedes en 2017, il rejoint la formule 1 chez Williams
+				en 2019 avant de revenir chez Mercedes.
+				<br>Cette saison, il a fait 2 podiums. Depuis ses débuts, il a inscrit 104 courses, et gagné 1 fois.<br>
+				<br>
+				<b>Anecdotes :</b>
+				<br>Un même de lui dans le générique de début a été employé de multiples fois cette saison.
+
+			</p>
+		</div>
+	</section>
+	<section class="pilot-section" id="piastri-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/piastri_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">81</p>
+				<img class="pilot-flag" src="images/flags/australia-flag.jpg">
+				<div>
+					<h4 class="pilot-page-firstname">OSCAR</h4>
+					<h3 class="pilot-page-name">PIASTRI</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Oscar Jack Piastri est né le 6 avril 2001 en Australie. Plus jeune, il a dominé de nombreuses league
+				junior et se retrouve très jeune dans l'écurie Mc Laren (pilote préféré d'un des développeurs).<br>
+				Cette saison, il a fait 2 podiums et a gagné une course sprint ! C'est sa première année en F1, donc
+				depuis ses débuts, il a inscrit 22 courses et 2 podiums.
+				<br>
+				<br>
+				<b>Anecdotes :</b>
+				<br>Son manager est le légendaire Mark Webber. Comme George Russel et Charles Leclerc, il a gagné les
+				championnat F3 et F2 lorsqu'il n'était que rookie.
+
+
+			</p>
+		</div>
+	</section>
+	<section class="pilot-section" id="stroll-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/stroll_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">63</p>
+				<img class="pilot-flag" src="images/flags/canada-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">LANCE</h4>
+					<h3 class="pilot-page-name">STROLL</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Lance Strulovitch est né le 29 octobre 1998 au Canada. C'est le fils du milliardaire businessman
+				Lawrence Stroll patron de l'écurie Aston Martin en formule 1.
+				C'est pour cette raison que sa place en formule 1 est assez critiquée. C'est quand même le plus jeune
+				rookie a avoir été sur le podium dans l'histoire de la formule 1.
+				<br>Cette saison, il a marqué 74 points. Depuis ses débuts, il a inscrit 143 courses et réalisé 3
+				podiums.
+				<br>
+				<br>
+				<b>Anecdotes :</b>
+				<br>Il adore skier et surfer dans ses temps libres. Son idole est <a
+					href="https://fr.wikipedia.org/wiki/Michael_Schumacher" target="_blank">Michael Schumacher</a>.
+
+			</p>
+		</div>
+	</section>
+	<section class="pilot-section" id="gasly-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/gasly_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">10</p>
+				<img class="pilot-flag" src="images/flags/france-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">PIERRE</h4>
+					<h3 class="pilot-page-name">GASLY</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Pierre Gasly est né le 7 février 1996 à Rouen en France. La course auto est dans son sang. En effet, son
+				grand père et son frère ont aussi participé à des compétitions automobiles.
+				Il est aujourd'hui dans la team 100% française Alpine.<br>
+				Cette saison, il a fait 1 podium et a marqué 62 points. Depuis ses débuts, il a inscrit 130 courses et
+				gagné 1 fois (course et commentateurs historique ce jour-là).
+				<br>
+				<br>
+				<b>Anecdotes :</b>
+				<br>Son idole est Ayrton Senna. C'est un grand fan de football et son équipe de cœur est le <a
+					href="https://www.psg.fr/" target="_blank">PSG</a>. A une course près cette saison il se serait fait éliminer du
+				championnat pour de très nombreuses pénalités.<s class=""></s>
+
+			</p>
+		</div>
+	</section>
+	<section class="pilot-section" id="ocon-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/ocon_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">31</p>
+				<img class="pilot-flag" src="images/flags/france-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">ESTEBAN</h4>
+					<h3 class="pilot-page-name">OCON</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Esteban José Jean-Pierre Ocon-Kelfane, est né le 17 septembre 1996 en France. Dans son enfance sa
+				famille a dû prendre des choix très douloureux pour lui permettre de réaliser ses rêves dans le sport
+				automobile (il vivait avec sa famille dans une cravane).
+				C'est donc ce qui fait de lui un gros travailleur qui va chercher son talent dans son travail
+				persévérant.
+				<br>Cette saison, il a fait 1 podium et a marqué 58 points. Depuis ses débuts, il a inscrit 133 courses
+				et gagné 1 fois.
+				<br><br>
+				<b>Annecdotes :</b>
+				<br>Même s'il est français, il est comme les développeurs, ce n'est pas un grand fan du fromage.
+				Il a gagné contre Max Verstappen dans le titre européen de F3.
+
+			</p>
+		</div>
+	</section>
+	<section class="pilot-section" id="albon-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/albon_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">23</p>
+				<img class="pilot-flag" src="images/flags/thailand-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">ALEXANDER</h4>
+					<h3 class="pilot-page-name">ALBON</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Alexander Albon Anshushinha est né le 23 mars 1996 en Angleterre mais il court sous le drapeau
+				thaïlandais. Il gravit les échelons petit à petit pour rejoindre la formule 1. En 2022, il obtient sa
+				place
+				dans l'écurie Williams.<br>Cette saison, il a marqué 27 points pour son équipe. Depuis ses débuts, il a
+				inscrit 81 courses et réalisé 2 podiums.
+				<br><br>
+				<b>Anecdotes :</b>
+				<br>Son circuit préféré est Suzuka au Japon. Il est le 2eme pilote thaïlandais de l'histoire à rouler en
+				Formule 1.
+
+			</p>
+		</div>
+	</section>
+	<section class="pilot-section" id="tsunoda-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/tsunoda_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">22</p>
+				<img class="pilot-flag" src="images/flags/japan-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">YUKI</h4>
+					<h3 class="pilot-page-name">TSUNODA</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Yuki Tsunoda est né le 11 mai 2000 au Japon. Il gravit les étapes petit à petit en passant de
+				compétitions en compétitions avant de rejoindre la formule 1 en étant le premier pilote du 21ème siècle
+				en 2021 dans l'écurie ALpha Tauri.
+				<br>Cette saison, il a marqué 17 points. Depuis ses débuts, il a inscrit 63 courses et marqué 61 points.
+				<br><br>
+				<b>Anecdotes :</b>
+				<br> Il adore manger et l'un de ses rêves est d'ouvrir un restaurant. Il adore se plaindre à la radio.
+
+			</p>
+		</div>
+	</section>
+	<section class="pilot-section" id="bottas-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/bottas_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">77</p>
+				<img class="pilot-flag" src="images/flags/finland-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">VALTTERI</h4>
+					<h3 class="pilot-page-name">BOTTAS</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Valtteri Viktor Bottas est né le 28 août 1989 en Finlande. Il n'est pas né dans une famille de pilotes.
+				Il a piloté dans de nombreuses catégories avant de rejoindre la formule 1. Il est actuellement dans l'équipe Alfa Romeo.
+				<br>Cette saison, il a marqué 10 points. Depuis ses débuts, il a couru 222 courses et gagné 10 fois.<br>
+				<br><b>Anecdotes :</b>
+				<br>Il a fait le service militaire dans son pays. Il adore le café et possède même un coffeshop dans sa
+				ville natale.
+
+			</p>
+		</div>
+	</section>
+	<section class="pilot-section" id="hulkenberg-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/hulkenberg_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">27</p>
+				<img class="pilot-flag" src="images/flags/germany-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">NICOLAS</h4>
+					<h3 class="pilot-page-name">HULKENBERG</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Nicolas Hülkenberg est né le 19 août 1987 en Allemagne. Il a commencé le karting à l'âge de 10 ans
+				et a eu une prodigieuse carrière junior (il a même été repéré par les plus grands managers).
+				Malheureusement,
+				ses années F1 ne sont pas aussi glorieuses. Au cours de cette saison, il n'a marqué que 9 points. Depuis
+				ses débuts,
+				il a fait 203 courses et 1 pole position ainsi que 98 top 10.<br>
+
+				<br>
+				<b>Anecdotes :</b>
+				<br>C'est un grand fan de tennis. Sa chanson préférée est Hotel California par Eagles. Son type de
+				nourriture préféré est la cuisine italienne.
+
+
+			</p>
+		</div>
+	</section>
+
+	<section class="pilot-section" id="ricciardo-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/ricciardo_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">3</p>
+				<img class="pilot-flag" src="images/flags/australia-flag.jpg">
+				<div>
+					<h4 class="pilot-page-firstname">DANIEL</h4>
+					<h3 class="pilot-page-name">RiCCIARDO</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Daniel Ricciardo ou le pilote australien charismatique est l'un des pilotes préférés par les fans de formule 1.
+				Après avoir quitté Mc Laren en 2022, il est revenu en cours de saison 2023 à bord de l'écurie Alpha
+				Tauri.
+				<br>Cette saison il a marqué 6 points pour son écurie. Depuis ses débuts, il a fait 239 courses et 8
+				victoires.<br>
+				<br>
+				<b>Anecdotes :</b>
+				<br>Pendant un épisode de Top Gear en 2015, il fait une démonstration et bat par miracle le précédent
+				record de Lewis Hamilton.
+
+			</p>
+		</div>
+	</section>
+
+	<section class="pilot-section" id="zhou-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/zhou_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">24</p>
+				<img class="pilot-flag" src="images/flags/china-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">GUANYU</h4>
+					<h3 class="pilot-page-name">ZHOU</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Zhou Guanyu est né le 30 mai 1999 en Chine. Tout jeune, il vint en Europe pour faire de la course
+				automobile
+				étant donné que ce domaine n'est que très peu développé en Chine. C'est en 2022 qu'il fait son entrée
+				en formule 1
+				dans l'écurie Alfa Romeo.<br>
+				Cette saison, il a marqué 6 points pour son équipe. Depuis ses débuts, il a fait 44 courses et 6 top
+				10.<br>
+				<br>
+				<b>Anecdotes :</b>
+				<br>C'est le premier pilote chinois en formule 1. C'est un collectionneur de sneakers. Il déteste le
+				vélo.
+				Son film préféré est Jumanji.
+
+			</p>
+		</div>
+	</section>
+
+	<section class="pilot-section" id="magnussen-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/magnussen_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">20</p>
+				<img class="pilot-flag" src="images/flags/denmark-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">KEVIN</h4>
+					<h3 class="pilot-page-name">MAGNUSSEN</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Kevin JAN Magnussen est né le 5 octobre 1992 au Danemark. Son père Jan Magnussen est 4 fois gagnant des
+				24h du mans.
+				Le pilotage est donc dans ses veines. Il fait une très grande entrée en formule 1. En effet lors de son
+				premier grand prix en 2014 (celui d'Australie),
+				il finit sur le podium à la troisième place.<br>Cette saison, il a marqué seulement 3 points pour son
+				équipe. Depuis ses débuts, il a couru 163 courses et a fait 1 podium et 46 top 10.
+				<br><br>
+				<b>Anecdotes :</b>
+				<br>Sa plus grande phobie est celle des araignées. Sa couleur préférée est le bleu. S'il serait un
+				animal, il serait un orque.
+
+			</p>
+		</div>
+	</section>
+
+	<section class="pilot-section" id="sargeant-page">
+		<div class="pilot-page-left">
+			<img class="pilot-page-img" src="images/pilots/sargeant_2.avif" />
+			<div class="pilot-infos">
+				<p class="pilot-number">2</p>
+				<img class="pilot-flag" src="images/flags/united-states-of-america-flag.png">
+				<div>
+					<h4 class="pilot-page-firstname">LOGAN</h4>
+					<h3 class="pilot-page-name">SARGEANT</h3>
+				</div>
+			</div>
+		</div>
+		<div class="pilot-page-right">
+			<p class="pilot-description">
+				Logan Hunter Sargeant est né le 31 décembre 2000 aux Etat Unis. Après un bon championnat F3, il rejoint
+				la Williams driver academy en 2021.
+				Puis en 2023, il réalise son entrée en F1 dans cette même écurie.<br>Cette saison, il n'a gagné que 1
+				point. Comme ce n'est que sa première saison, il n'a couru que 22 courses et n'a réalisé qu'un seul top
+				10.
+				<br><br>
+				<b>Anecdote :</b>
+				<br>Si le numéro 3 était disponible, il l'aurait pris.
+
+			</p>
+		</div>
+	</section>
+
+
+	<footer>
+		<section class="footer-center">
+			<div>
+				<p><b>Auteurs :</b></p>
+				<p>
+					Max K. ( <img src="./images/icons/github-mark-white.png" class="github-logo-footer"> <a
+						href="https://github.com/lo-opix/" target="_blank">Github</a> )
+					<br>Raphaël V. ( <img src="./images/icons/github-mark-white.png" class="github-logo-footer"> <a
+						href="https://github.com/rapych/" target="_blank">Github</a> )
+
+					<br><br><br><b>Liens utiles pour en apprendre plus sur le sujet :</b><br>
+					<a href="https://www.eurosport.fr/formule-1/" target="_blank">Eurosport</a> <br>
+					<a href="https://tickets.formula1.com/fr" target="_blank">Acheter</a> des places pour les
+					développeurs
+
+				</p>
+			</div>
+			<div class="middle_part">
+				<p><b>Liens vers les pages du site :</b></p><br>
+				<br>
+				<ul class="sources-liens-pages-site">
+					<li><a href="index.html">Les pilotes</a></li>
+					<li><a href="page1.html">Les écuries</a></li>
+					<li><a href="page2.html">Les circuits</a></li>
+				</ul>
+
+			</div>
+			<div class="right_part">
+				<p><b>Nos sources :</b></p><br><br>
+				<ul class="sources-liens-pages-site">
+					<li><a href="https://www.formula1.com/">Formula 1 website</a></li>
+					<li><a href="https://www.countryflags.com/">Countryflags</a></li>
+					<li><a href="https://www.boxbox.club/">Application mobile BoxBox</a></li>
+					<li><a href="https://icon-icons.com/">Site d'icônes</a></li>
+				</ul>
+			</div>
+		</section>
+		<div class="footer-bottom">
+			<div class="page-precedente">
+				<p><a href="/index.html">Page Précédente</a></p>
+			</div>
+			<div class="page-suivante">
+				<p><a href="/page1.html">Page Suivante</a></p>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="js/script1.js"></script>
+
+</body>
+
+</html>
+
+
+<!-- 
+	Sources:
+	- F1 : https://www.formula1.com/
+	- https://www.countryflags.com/
+	- Application BOXBOX : https://www.boxbox.club/
+	
+
+
+-->

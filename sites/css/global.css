@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	background-color: #e5e5e5;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	color: rgb(161, 0, 0);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	height: 200px;
+	background-color: rgb(34, 34, 34);
+	border-top: 2px solid #e10610;
+	padding-top: 15px;
+	color: rgb(119, 119, 119);
+	font-size: 14px;
+}
+
+.footer-center {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.footer-bottom {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+.page-precedente {
+	margin-left: 15px;
+}
+
+.page-suivante {
+	text-align: right;
+	margin-right: 80px;
+}
+
+
+center {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.middle_part {
+	text-align: center;
+}
+
+.right_part {
+	text-align: center;
+}
+
+
+/*header*/
+
+header {
+	display: flex;
+	background-color: #e10610;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+#f1-title {
+	font-size: 3rem;
+	margin: 10px 20px;
+	width: 62px;
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+	font-family: "Monoton", serif;
+	font-style: italic;
+}
+
+#website-title {
+	font-size: 2rem;
+	margin: 20px;
+	color: rgb(255, 255, 255);
+}
+
+#header-left-part {
+	display: flex;
+	align-items: center;
+}
+
+#header-list {
+	display: flex;
+	list-style: none;
+	margin: 20px;
+	height: 40px;
+}
+
+.header-item {
+	margin: 0 20px;
+	font-size: 1.5rem;
+	transform: translateY(3px);
+}
+
+.header-item>a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+.header-item>a:after {
+	display: block;
+	content: "";
+	height: 3px;
+	width: 100%;
+	background-color: transparent;
+	transition: all 0.3s ease-out;
+}
+
+.header-item>a:hover:after {
+	background-color: rgb(255, 255, 255);
+}
+
+/* Go Up Button */
+#btn-go-top {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 50px;
+
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.4);
+	border: none;
+	transition: all 0.3s ease-out;
+}
+
+#btn-go-top:hover {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.github-logo-footer {
+	height: 13px;
+}
+
+.hidden{
+	display: none;
+}

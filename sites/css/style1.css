@@ -1,0 +1,404 @@
+body {
+    background-color: rgb(29, 29, 29);
+    color: black;
+
+}
+
+
+/*  Le titre de la page avec son effet est défini ici*/
+#tittle {
+    margin-top: 120px;
+    padding: 5px 10px;
+    font-size: 4rem;
+    width: calc(100% - 60px);
+    text-wrap: nowrap;
+    border-top: 10px solid #294680;
+    border-right: 10px solid #294680;
+    border-radius: 0 20px 0 0;
+    color: #294680;
+    margin-bottom: 40px;
+}
+
+
+/*C'est à partir d'ici que sont défnis tous les items présents dans le body*/
+.equipe-section {
+    margin-top: 10px;
+}
+
+
+.cars {
+    max-width: 100%;
+}
+
+.teams-logo {
+    height: 50px;
+}
+
+h2 {
+    font-family: "Bebas Neue", serif;
+    font-size: 35;
+    text-align: center;
+}
+
+.tableau-equipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipe-grid {
+    display: grid;
+    margin-top: 40px;
+    margin-left: 3px;
+    margin-right: 3px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 56px 56px 75px 75px 75px;
+    overflow: hidden;
+    background-color: rgb(32, 32, 32);
+    color: beige;
+    border-radius: 10px;
+    grid-gap: 5px;
+    border: 3px solid #1E2F50;
+    ;
+}
+
+.left-part {
+    grid-row-start: 1;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 112px 70px 99px;
+    background-color: rgb(49, 49, 49);
+    overflow: hidden;
+    border-radius: 6px;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    border: 2px solid #2a4170;
+}
+
+.car-number {
+    display: flex;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    overflow: hidden;
+}
+
+.bandeau-2 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-top: 2px solid #2a4170;
+    border-bottom: 2px solid #2a4170;
+}
+
+.equipe-position {
+    border-right: 2px solid #2a4170;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.equipe-position>img {
+    max-width: 70%;
+    overflow: hidden;
+}
+
+.team-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#red-bull {
+    font-family: Oswald;
+    font-size: 2vw;
+    margin-left: 15%;
+}
+
+#mercedes {
+    font-family: Oswald;
+    font-size: 2vw;
+    margin-left: 70px;
+}
+
+#ferrari {
+    font-family: Oswald;
+    font-size: 2vw;
+    margin-left: 80px;
+}
+
+#aston-martin {
+    font-family: Oswald;
+    font-size: 2vw;
+    margin-left: 80px;
+}
+
+#alpine {
+    font-family: Oswald;
+    font-size: 2vw;
+    margin-left: 80px;
+}
+
+.team-name>img {
+    max-height: 60px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    float: left;
+}
+
+.left-part-pilot-1 {
+    border-right: 1px solid #2a4170;
+    border-bottom: 2px solid #2a4170;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.left-part-pilot-1>img {
+    max-width: 100%;
+    max-height: 95%;
+}
+
+.left-part-pilot-2 {
+    overflow: hidden;
+    border-bottom: 2px solid #2a4170;
+    display: flex;
+    justify-content: center;
+}
+
+.left-part-pilot-2>img {
+    max-width: 100%;
+    max-height: 95%;
+}
+
+.left-part-name-pilot-1 {
+    overflow: hidden;
+    border-right: 2px solid #2a4170;
+}
+
+.left-part-name-pilot-1>p {
+    font-family: Bebas Neue;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.left-part-name-pilot-2 {
+    overflow: hidden;
+}
+
+.left-part-name-pilot-2>p {
+    font-family: Bebas Neue;
+    text-align: center;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.team-flag {
+    overflow: hidden;
+    margin-top: 4px;
+    border: 2px solid #2a4170;
+    border-radius: 4px;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#united-kingdom-flag {
+    overflow: hidden;
+}
+
+#united_kingdom {
+    font-family: Bebas Neue;
+    text-align: left;
+    font-size: 1.25vw;
+    overflow: hidden;
+}
+
+.team-flag>img {
+    max-height: 91%;
+    border-radius: 10px;
+    float: left;
+    overflow: hidden;
+}
+
+.team-flag>p {
+    font-family: Bebas Neue;
+    text-align: left;
+    font-size: 1.25vw;
+    overflow: hidden;
+    padding-left: 12px;
+}
+
+.chassis {
+    border: 2px solid #2a4170;
+    margin-top: 4px;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chassis>p {
+    font-family: Bebas Neue;
+    text-align: center;
+    font-size: 1.25vw;
+    overflow: hidden;
+}
+
+.moteur {
+    border: 2px solid #2a4170;
+    margin-top: 4px;
+    margin-right: 4px;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moteur>p {
+    font-family: Bebas Neue;
+    text-align: center;
+    font-size: 1.25vw;
+}
+
+.team-leader {
+    border: 2px solid #2a4170;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-leader>p {
+    font-family: Bebas Neue;
+    text-align: center;
+    font-size: 1.25vw;
+}
+
+.stats-title {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    border: 2px solid #2a4170;
+    overflow: hidden;
+    margin-right: 4px;
+    border-radius: 4px;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats-title>img {
+    max-height: 50px;
+    float: left;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.stats-title>p {
+    font-family: Bebas Neue;
+    text-align: center;
+    font-size: 1.25vw;
+}
+
+.stats-season {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    border: 2px solid #2a4170;
+    overflow: hidden;
+    margin-right: 4px;
+    border-radius: 4px;
+    background-color: rgb(49, 49, 49);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2fr 1fr;
+}
+
+.cette-saison {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cette-saison>p {
+    font-family: Bebas Neue;
+    font-size: 1.25vw;
+}
+
+.stats-nombre {
+    border-left: 2px solid #2a4170;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats-nombre>p {
+    font-family: Bebas Neue;
+    font-size: 1.25vw;
+}
+
+.stats-indications {
+    border-left: 2px solid #2a4170;
+    border-top: 2px solid #2a4170;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats-indications>p {
+    font-family: Bebas Neue;
+    font-size: 1.25vw;
+}
+
+.stats-indications>img {
+    max-height: 20px;
+    overflow: hidden;
+    margin-right: 15px;
+
+}
+
+.info-complementaire {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    border: 2px solid #2a4170;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    background-color: rgb(49, 49, 49);
+    overflow: hidden;
+}
+
+.info-complementaire>p {
+    font-family: Arial;
+    font-size: 15px;
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+
+/* La fin de la page attention le style est défini dans le fichier ./CSS/global.css */
+footer {
+    margin-top: 40px;
+}
