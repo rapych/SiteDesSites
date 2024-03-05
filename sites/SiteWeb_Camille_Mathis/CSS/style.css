@@ -1,0 +1,83 @@
+html,
+body {
+	font-family: Arial, sans-serif;
+	margin: 20px;
+	text-align:justify;
+	background-color: #A3CBE8;
+}
+
+
+h1 {
+	color: #081654;
+	text-align: center;
+	text-shadow: 2px 2px 20px #A3CBE8;
+}
+
+
+#introduction {
+	margin-top: 20px;
+}
+
+
+li {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+
+a {
+	color: #261B48;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow: 1px 1px 15px #A3CBE8;
+}
+
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+#aerodynamisme,
+#histoire,
+#fonctionnement {
+	margin-top: 30px;
+}
+
+
+img {
+	display: block;
+	margin: 15px auto;
+	border: 2px solid #808080;
+	border-radius: 5px;
+}
+
+
+button {
+	background-color: #6093CE;
+	color: #FFFFFF;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+button:hover {
+	background-color: #005CBF;
+}
+
+
+.sources {
+	position: relative;
+	font-size: 12px;
+	color: #081654;
+	left: 900px;
+}
+
+
+footer {
+	margin-top: 50px;
+	text-align: center;
+	color: #808080;
+}
