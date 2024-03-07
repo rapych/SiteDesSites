@@ -4,6 +4,12 @@
 
 .description-title{
     font-weight: bold;
+    color:;
     font-family: Madimi one ;
-    font-size: 18px;
+    font-size: 16px;
+}
+
+.description-paragraphe{
+    font-family: Madimi one ;
+    font-size: 13px;
 }
