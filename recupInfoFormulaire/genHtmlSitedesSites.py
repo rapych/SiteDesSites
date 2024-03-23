@@ -15,7 +15,7 @@ def miseEnformeDesDatas(element):
     				</div>
     				<div class=\"card-right\">
     					<img class=\"website-img\" src=\"images/""" + element["SiteName"] + """.png\" />
-    					<div class=\"card-btn\" onclick=\"() => {window.location.href = '/""" + element["SiteName"] + """/index.html'}\">
+    					<div class=\"card-btn\" onclick=\"window.location.href = '/""" + element["SiteName"] + """/index.html'\">
     						<span>Link</span>
     						<img src=\"./images/link-icon.svg\" class=\"link-img\" />
     					</div>
